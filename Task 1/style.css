@@ -63,3 +63,14 @@ form {
     font-size: 2em;
   }
 }
+/* Output */
+#output {
+  display: flex;
+  gap: 3rem;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+#output div {
+  color: white;
+  font-size: 2rem;
+}

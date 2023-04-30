@@ -59,3 +59,32 @@
   border-radius: 5px;
   background-color: #fff;
 }
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: aquamarine;
+  border-radius: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  max-width: 100%;
+  flex-grow: 1;
+}
+.avatar-url {
+  word-wrap: break-word;
+  max-width: 100%;
+  flex-shrink: 1;
+  color: darkblue;
+}
+.login-name {
+  color: red;
+  word-wrap: break-word;
+  max-width: 100%;
+}

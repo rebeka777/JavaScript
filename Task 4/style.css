@@ -27,3 +27,35 @@
   margin-top: 50px;
   color: #333;
 }
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  gap: 2rem;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+.car {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: rgb(156, 216, 196);
+  border-radius: 1rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  max-width: 100%;
+  flex-grow: 1;
+  text-align: center;
+}
+.brand-name {
+  word-wrap: break-word;
+  max-width: 100%;
+  flex-shrink: 1;
+  color: darkblue;
+  font-size: 2rem;
+}
+.models-list {
+  color: rgb(148, 33, 33);
+  word-wrap: break-word;
+  max-width: 100%;
+}
